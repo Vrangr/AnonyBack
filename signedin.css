@@ -1,0 +1,131 @@
+body
+{
+	background-image:url("3.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center center; 
+	background-attachment:fixed;
+}
+ ul
+{
+	overflow:hidden;
+	list-style-type:none;
+	margin: 0;
+    padding: 0;
+	-webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+ li
+{
+	float:left;
+	border-style: solid;
+    border-width: 5px;
+}
+ li a
+{
+	display:block;
+	font-size:20px;
+	font-family:"Lucida Console";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	color:white;
+}
+ ul:hover
+{
+	/*background-color:#90a4ae;*/
+}
+li a:hover
+{
+	background-color:#555;
+	color:white;
+	display:block;
+}
+.left
+{
+	height:100%;
+	width:250px;
+	position:fixed;
+	background:#111;
+	opacity:0.75;
+}
+.left p
+{
+	font-family:"Lucida Console";
+	font-size:20px;
+	text-decoration:none;
+	position:relative;
+	top:2px
+	padding:50px 0px 0px 50px;
+	display:block;
+	color:white;
+	background-color:black;
+}
+.palyarea
+{
+	float:left;
+}
+.table
+{
+	position:relative;
+	left:270px;
+	background-color:white;
+	opacity:0.75;
+}
+.table th
+{
+	padding:10px;
+}
+.jotform-form
+{
+	position:relative;
+	left:270px;
+}
+.form2
+{
+	position:relative;
+	left:270px;
+	background-color:white;
+	opacity:0.75;
+}
+.area
+{
+	background-color:#bdbdbd;
+	  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+	font-size:20px;
+	font-family:helvetica;
+}
+.area:hover{
+	background-color: #424242;
+}
+.area:focus
+{
+	background-color: #424242;
+	width: 500px;
+	color: #53e3a6;
+	
+}
+
+form button
+{
+	-webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 2px solid #212121;
+  padding: 10px 15px;
+  color: #212121;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+
+form button:hover
+{
+	color: white;
+	background-color: #212121;
+}

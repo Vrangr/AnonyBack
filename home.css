@@ -1,0 +1,85 @@
+body
+{
+	background-image:url("2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center center; 
+	background-attachment:fixed;
+}
+.btn a
+{
+	text-decoration:none;
+	
+}
+.btn
+{
+	font-family:"Lucida Console";
+	font-size:30px;
+	text-align:centre;
+	padding:20px 40px;
+	opacity:0.75;
+}
+.navibutton
+{
+		margin-left:400px;
+	
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '>>';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+ul
+{
+	overflow:hidden;
+	list-style-type:none;
+	margin: 0;
+    padding: 0;
+	-webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+li
+{
+	float:left;
+	border-style: solid;
+    border-width: 5px;
+}
+li a
+{
+	display:block;
+	font-size:20px;
+	font-family:"Lucida Console";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+ul:hover
+{
+	background-color:#90a4ae;
+}
+li a:hover
+{
+	background-color:#555;
+	color:white;
+	display:block;
+}

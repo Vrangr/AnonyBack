@@ -1,0 +1,50 @@
+<?php
+
+session_start();
+
+?>
+
+<html>
+	<head>
+		<title>Signed in</title>
+		<link rel="stylesheet" href="signedin.css" type="text/css"/>
+	</head>
+	<body>
+		<div id="container" style="float:left;">
+
+			<div id="image" style="float:left;">
+				<img src="index.gif"  align="left"style="width:90px;height:90px;"/>
+			</div>
+
+			<div id="texts" style="float:left;font-size:100px;font-family:Lucida Console;"> 
+			AnoyBack
+			</div>
+
+		</div>
+		<br/><br/><br/><br/><br/><br/>
+		<ul class="navibar">
+			<li><a href="#">Pending</a></li>
+			<li><a href="signcreatenew.html">Create new</a></li>
+			<li><a href="#">Previous</a></li>
+			<li style="float:right;" id="signin"><a href="#">Logout</a></li>
+			<li style="float:right;" id="register"><a href="#">Hello <?php echo '$_SESSION["userName"]';?>!</a></li>
+		</ul>
+		 
+		<div class="left" style="clear:left;">
+				<p id="admin"></p><br/>
+				<p id="userid"></p><br/>
+				<p id="comapanyname"></p><br/>
+		</div>
+		<div class="playarea">
+			<table class="table">
+				<tr>
+					<th><a href="form1.html"><img src="form.png" style="width=150px;height:150px"/></a></th>
+					<th><a href="form2.html"><img src="form.png" style="width=150px;height:150px"/></a></th>
+				</tr>
+				<tr>
+					<th>Complaint</th>
+					<th>Feedback</th>
+				</tr>
+		</div>
+	</body>
+</html>

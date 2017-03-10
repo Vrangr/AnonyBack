@@ -1,0 +1,66 @@
+#mainhtml,#mainbody
+{
+	background-image:url("1.png");
+	height:100%;
+	max-width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center center; 
+	background-attachment:fixed;
+	
+}
+#holder
+{
+	position:relative;
+}
+.upperr{
+	visibility:hidden;
+
+}
+#lower{
+	visibility:hidden;
+}
+#name
+{
+	position:absolute;
+}
+.w3-btn
+{
+	width:600px;
+	height:150px;
+	box-shadow:10px 10px 10px grey;
+}
+#loginhead
+{
+	
+	width:100%;
+	height:20%;
+}
+.form
+{
+	font-family:Helvetica;
+	font-size:25px;
+	color:#009688;
+	
+}
+.ttext
+{
+	outline:none;
+	border-left-style:none;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:solid;
+	font-size:25px;
+}
+input[type=submit] 
+{
+		position:relative;
+		height:30px;
+		width:100px;
+		font-family:Helvetica;
+		color:#00796B;
+		background:white;
+		box-shadow:3px 3px 3px gery;
+		border-radius: 20px;
+		top:20px;
+}
